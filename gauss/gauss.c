@@ -24,7 +24,7 @@ int main (){
             }
         }
 
-        printf("Matriz escalonada:\n");
+        printf("Matriz triangular superior:\n");
         for (int i=0;i<LINHAS;i++){
             for(int k=0;k<COLUNAS;k++){
                 printf("%f\t",matriz[i][k]);
